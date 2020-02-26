@@ -20,7 +20,7 @@ export default class Index extends Component {
     */
   <%}-%>
   config<%if (locals.typescript) {%>: Config<%}%> = {
-    navigationBarTitleText: '首页',
+    navigationBarTitleText: '首i',
     usingComponents: {
       'avatar': 'plugin://myPlugin/avatar'
     }

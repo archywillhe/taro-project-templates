@@ -70,7 +70,7 @@ class <%= _.capitalize(pageName) %> extends Component {
    */
   <%}-%>
   config<%if (locals.typescript) {%>: Config<%}%> = {
-    navigationBarTitleText: '首页'
+    navigationBarTitleText: 'meow'
   }
 
   componentWillReceiveProps (nextProps) {
